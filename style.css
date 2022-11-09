@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.jumbotron .content video {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+ .jumbotron .content .bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+ }
+
+ .jumbotron .title .home-title {
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    margin-top: 80px;
+    margin-left: 90px;
+ }
+
+
+.character {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 12px;
+
+ }
+ .hal2{
+   margin-left: 70px;
+   display: flex;
+   justify-content: ;
+   background-image: url(./background\ putih.jfif);
+ }
+
+
+ .carousel {
+   margin: 10px 150px 20px 150px;
+   width: 70%;
+}
+.carousel .gamefeatures{
+   margin-top: 70px;
+   margin-left: 10%;
+   margin-bottom: 20px;
+}
+
+.newchar {
+   display: flex;
+   height: 600px;
+   margin-top: 80px;
+   background-image: url(https://webstatic.hoyoverse.com/upload/contentweb/2022/08/16/8969f683b92839ac427c875d0d742be2_4596868760376591695.jpg);
+}
+
+.kolom {
+   margin: 50px;
+   margin-bottom: 50px;
+   
+}
+
+.kolom .desc {
+   content: normal;
+   margin-top: 5%;
+   margin-left: 10%;
+}
+
+.card {
+   border-color: transparent;
+   margin: 50px 150px 0;
+}
+
+.kanan {
+   margin: 0px 80px 20px 100px;
+}
+
+.card-body p {
+   font-family: Georgia;
+}
+.footer{
+   margin-bottom: -50px;
+   margin-top: -40px;
+}
+
+.foot img {
+   margin-top: 10px;
+   margin-left: 535px;
+}
+
+.title .btn{
+   margin-left: 40%;
+   background-color: rgb(0, 157, 224);
+   border-color: rgb(0, 157, 224);
+}
